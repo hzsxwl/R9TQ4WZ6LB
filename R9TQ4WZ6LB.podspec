@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'R9TQ4WZ6LB'
-  s.version          = '5.4.0'
+  s.version          = '5.4.1'
   s.summary          = 'sdk R9TQ4WZ6LB.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'R9TQ4WZ6LB/Classes/**/*'
-  s.public_header_files = ['R9TQ4WZ6LB/Classes/**/QelvAdSuite.h', 'R9TQ4WZ6LB/Classes/**/QelvAdEngine.h', 'R9TQ4WZ6LB/Classes/**/QelvAdOrder.h', 'R9TQ4WZ6LB/Classes/**/QelvLaunchAd.h', 'R9TQ4WZ6LB/Classes/**/QelvMidwayAd.h', 'R9TQ4WZ6LB/Classes/**/QelvGratifyAd.h', 'R9TQ4WZ6LB/Classes/**/QelvRibbonAd.h', 'R9TQ4WZ6LB/Classes/**/QelvTileAd.h', 'R9TQ4WZ6LB/Classes/**/QelvTileBatch.h', 'R9TQ4WZ6LB/Classes/**/QelvTileCanvas.h']
+  s.public_header_files = ['R9TQ4WZ6LB/Classes/**/QelvAdSuite.h', 'R9TQ4WZ6LB/Classes/**/QelvAdEngine.h', 'R9TQ4WZ6LB/Classes/**/QelvAdOrder.h', 'R9TQ4WZ6LB/Classes/**/QelvColdstartAd.h', 'R9TQ4WZ6LB/Classes/**/QelvMidwayAd.h', 'R9TQ4WZ6LB/Classes/**/QelvGratifyAd.h', 'R9TQ4WZ6LB/Classes/**/QelvMarqueeAd.h', 'R9TQ4WZ6LB/Classes/**/QelvTileAd.h', 'R9TQ4WZ6LB/Classes/**/QelvTileBatch.h', 'R9TQ4WZ6LB/Classes/**/QelvTileCanvas.h']
   s.vendored_libraries = 'R9TQ4WZ6LB/Libraries/libR9TQ4WZ6LB-iOS.a'
 
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"

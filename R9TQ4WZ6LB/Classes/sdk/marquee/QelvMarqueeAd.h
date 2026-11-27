@@ -1,41 +1,41 @@
 //
-//  QelvRibbonAd.h
+//  QelvMarqueeAd.h
 //  R9TQ4WZ6LB-iOS
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @class QelvAdOrder;
-@class QelvRibbonAd;
+@class QelvMarqueeAd;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol QelvRibbonAdDelegate <NSObject>
+@protocol QelvMarqueeAdDelegate <NSObject>
 
 @optional
 
-- (void)qelvRibbonRefreshed:(QelvRibbonAd *)bannerAdView;
+- (void)qelvMarqueeRefreshed:(QelvMarqueeAd *)bannerAdView;
 
-- (void)qelvRibbonRefreshFailed:(NSError *)error;
+- (void)qelvMarqueeRefreshFailed:(NSError *)error;
 
-- (void)qelvRibbonLoaded:(QelvRibbonAd *)bannerAdView;
+- (void)qelvMarqueeLoaded:(QelvMarqueeAd *)bannerAdView;
 
-- (void)qelvRibbonLoadFailed:(NSError *)error;
+- (void)qelvMarqueeLoadFailed:(NSError *)error;
 
-- (void)qelvRibbonExposed;
+- (void)qelvMarqueeExposed;
 
-- (void)qelvRibbonTapped;
+- (void)qelvMarqueeTapped;
 
-- (void)qelvRibbonLeftHostApp;
+- (void)qelvMarqueeLeftHostApp;
 
-- (void)qelvRibbonWillCoverScreen;
-- (void)qelvRibbonCoverClosed;
-- (void)qelvRibbonRemoved;
+- (void)qelvMarqueeWillCoverScreen;
+- (void)qelvMarqueeCoverClosed;
+- (void)qelvMarqueeRemoved;
 @end
 
-@interface QelvRibbonAd : NSObject
+@interface QelvMarqueeAd : NSObject
 
-@property (nonatomic, weak) id<QelvRibbonAdDelegate> observer;
+@property (nonatomic, weak) id<QelvMarqueeAdDelegate> observer;
 
 @property (nonatomic, weak) UIViewController *hostController;
 
